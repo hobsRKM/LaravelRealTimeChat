@@ -130,7 +130,7 @@ You can configure to add your own server.
 
 ![](https://github.com/yuvaraj-mudaliar/fusionmate/blob/master/public/plugins/gif/home.png?raw=true)
 
-> The Project was not completly developed and not tested enough.
+> The Project was not completly developed and currently not active in development and not tested enough.
 > I had created this project as  Hobby and most of the mentioned features works well.
 > Feel free to fork if you think you can add additional features or enhancements and continue development.
 > **UPGRADE**:  Laravel latest version is 5+. Feel free to upgrade and dm me if you wish to upgrade with latest version in a new branch.
