@@ -1,0 +1,28 @@
+<?php
+/*
+ * Notifications count for messages, global, and tasks
+ * 
+ */
+?>
+<?php $__env->startSection('message-notifications-count'); ?>
+<a data-toggle="dropdown" href="">
+    <i class="tm-icon zmdi zmdi-email"></i>
+    <?php if($count['unreadMessageCount']>0): ?>
+    <i class="tmn-counts" id='unreadCount'><?php echo $count['unreadMessageCount']; ?></i>
+    <?php else: ?>
+   <i  id='unreadCount'></i>
+   <?php endif; ?>
+</a>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('general-notifications-count'); ?>
+<a data-toggle="dropdown" href="">
+    <i class="tm-icon zmdi zmdi-notifications"></i>
+    <?php if($count['unreadGeneralMessageCount']>0): ?>
+    <i class="tmn-counts" id='unreadGeneralCount'><?php echo $count['unreadGeneralMessageCount']; ?></i>
+    <?php else: ?>
+   <i  id='unreadGeneralCount'></i>
+   <?php endif; ?>
+</a>
+<?php $__env->stopSection(); ?>

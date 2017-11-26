@@ -1,0 +1,24 @@
+{
+    "name": "barryvdh/laravel-migration-generator",
+    "description": "Generate migrations based on existing database",
+    "keywords": ["laravel", "migration", "generator", "artisan"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Barry vd. Heuvel",
+            "email": "barryvdh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~4",
+        "doctrine/dbal": "~2.3",
+        "way/generators": "1.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Barryvdh\\MigrationGenerator": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,27 @@
+
+<div class="table-responsive">
+    <table id="data-table-basic" class="table table-striped">
+        <thead>
+            <tr>
+                <th data-column-id="id" data-type="numeric">ID</th>
+                <th data-column-id="status" data-formatter="status">Status</th>
+                <th data-column-id="username" data-formatter="username" >Username</th>
+            </tr>
+        </thead>
+        <tbody >
+            <?php foreach($members as $member): ?>
+            <?php $memberDetails = explode("_", $member); ?>
+            <tr>
+                <td><?php echo $memberDetails[2]; ?></td>
+                <?php if($memberDetails[3]=="online"): ?>
+                    <td ><?php echo $memberDetails[3]; ?></td>
+                <?php else: ?>
+                   <td><?php echo $memberDetails[3]; ?></td>
+                <?php endif; ?>
+                <td><?php echo $memberDetails[0]." ".$memberDetails[1]; ?></td>
+            </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>
+
