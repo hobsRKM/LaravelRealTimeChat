@@ -10,6 +10,7 @@ return array(
     'Way\\Generators' => array($vendorDir . '/way/generators/src'),
     'System' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
     'Stack' => array($vendorDir . '/stack/builder/src'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
     'Predis' => array($vendorDir . '/predis/predis/lib'),
     'PHPParser' => array($vendorDir . '/nikic/php-parser/lib'),
     'Net' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
