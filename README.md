@@ -1,7 +1,7 @@
 Fusionmate -  RealTime Chat Application with Task Management!
 ===================
 
-
+[![Build Status](https://scrutinizer-ci.com/g/yuvaraj-mudaliar/fusionmate/badges/build.png?b=master)](https://scrutinizer-ci.com/g/yuvaraj-mudaliar/fusionmate/build-status/master)
 ![](https://scrutinizer-ci.com/g/yuvaraj-mudaliar/fusionmate/badges/quality-score.png?b=master)
 
 A real time chat based application built using laravel framework 4.2 with task management using Socket.io and Redis.
