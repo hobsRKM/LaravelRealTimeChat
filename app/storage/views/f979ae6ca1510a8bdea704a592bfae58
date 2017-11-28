@@ -12,9 +12,7 @@
 <div id="dashboardTab" role="tabpanel" class="top-dash-board">
         <ul class="tab-nav" role="tablist">
                 <li class="active"><a href="#home11" aria-controls="home11" role="tab" data-toggle="tab">Task Manager</a></li>
-                <li><a href="#profile11" aria-controls="profile11" role="tab" data-toggle="tab">Event Manager</a></li>
-                <li><a href="#messages11" aria-controls="messages11" role="tab" data-toggle="tab">Calender</a></li>
-                <li><a href="#settings11" aria-controls="settings11" role="tab" data-toggle="tab">Getting Started</a></li>
+
         </ul>
         <div  class="tab-content ">
                 <div role="tabpanel" class="tab-pane active" id="home11">

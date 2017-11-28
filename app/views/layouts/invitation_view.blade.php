@@ -43,7 +43,6 @@
           
         </div>
              <br/><br/>
-    <p style='bottom:0'>&copy;2015 Fusionmate <a href='http://fusionmate.com'>www.fusionmate.com</a></p>
         </form>
         
       
