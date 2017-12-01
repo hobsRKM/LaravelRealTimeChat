@@ -30,7 +30,7 @@ Rquirements
    
 **Step 2**
 
-    $ cd  /path_to/fusionmate/ && composer install
+    $ composer install //issue this command inside fusionmate folder to install dependencies
     
       Create database 'fusionmate' in Mysql
 
