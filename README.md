@@ -48,6 +48,7 @@ Generate Database tables with test data
     $ php artisan migrate
 **Step 5**
 Open two terminals or CMD prompt depending on OS.
+
 In **Terminal 1**
 
     $ redis-server
