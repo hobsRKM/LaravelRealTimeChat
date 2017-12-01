@@ -24,8 +24,8 @@ Rquirements
 **Step 1**
 
    
-    Create a folder 'fusionmate' and clone project into 'fusionmate' folder
-    $ git clone https://github.com/yuvaraj-mudaliar/fusionmate.git
+    
+    $ git clone https://github.com/yuvaraj-mudaliar/fusionmate.git //this will create a folder 'fusionmate' and clone into it
       
    
 **Step 2**
