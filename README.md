@@ -26,13 +26,13 @@ Rquirements
    
     Create a folder 'fusionmate'
     $ git clone https://github.com/yuvaraj-mudaliar/fusionmate.git
-    into fusionmate folder
+      into fusionmate folder
    
 **Step 2**
 
     $ cd  /path_to/fusionmate/ && composer install
-    $ cd  /path_to/fusionmate/app/config
-    Create database 'fusionmate' in Mysql
+    
+      Create database 'fusionmate' in Mysql
 
 **Step 3**
 Go to root of project and open database config and fill in mysql credentials and database name
