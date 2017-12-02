@@ -1,6 +1,14 @@
 Fusionmate -  Laravel RealTime Chat Application with Task Management!
 ===================
 
+Demo: http://fusionmate.com
+
+**Demo Credentials to login as Admin**
+
+*Username*: demo@demo.com
+
+*Password*: Explore@123
+
 [![Build Status](https://scrutinizer-ci.com/g/yuvaraj-mudaliar/fusionmate/badges/build.png?b=master)](https://scrutinizer-ci.com/g/yuvaraj-mudaliar/fusionmate/build-status/master)
 ![](https://scrutinizer-ci.com/g/yuvaraj-mudaliar/fusionmate/badges/quality-score.png?b=master)
 
@@ -10,13 +18,7 @@ A real time chat based application built using laravel framework 4.2 with task m
 
 ----------
 
-Demo: http://fusionmate.com
 
-**Demo Credentials to login as Admin**
-
-*Username*: demo@demo.com
-
-*Password*: Explore@123
 
 Rquirements
 -------------
