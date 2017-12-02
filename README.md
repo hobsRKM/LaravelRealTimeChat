@@ -14,7 +14,7 @@ A real time chat based application built using laravel framework 4.2 with task m
 Rquirements
 -------------
  1. PHP  version<=7.0
- 2. Mysql
+ 2. Mysql PHP and Node-Mysql (npm install mysql for nodejs)
  3. Redis - Windows(https://github.com/rgl/redis/downloads), Linux (https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04)
  4. Node Js
  5. Socket.io (https://www.npmjs.com/package/socket.io)
@@ -82,9 +82,15 @@ Copy `.htaccess` and `index.php` file outside of project root folder
 Open browser and visit 
 
     http://localhost
+
 **Demo Credentials to login as Admin**
+
 *Username*: demo@demo.com
+
 *Password*: Explore@123
+
+> **Note**: On linux if you get Exception Handler Error, then you need to make sure you have correct permission
+	    chmod -R 775 app/storage
 
 **Docs**
 ----
