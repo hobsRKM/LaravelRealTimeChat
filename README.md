@@ -41,12 +41,14 @@ Go to root of project and open database config, server.js and edit MYSQL credent
     $ vi database.php    //edit mysql credentials
     $ cd /path_to/fusionmate/nodejs
     $ vi server.js
-    	var connection = mysql.createConnection({
+    	
+	var connection = mysql.createConnection({
   	host     : 'localhost',
   	user     : 'MYSQL _USERNAME',
   	password : 'MYSQL_PASSWORD',
   	database : 'fusionmate'
 	});
+	
 **Step 4**
 Generate Database tables with test data
    
