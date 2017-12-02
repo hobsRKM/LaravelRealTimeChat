@@ -90,7 +90,8 @@ Open browser and visit
 *Password*: Explore@123
 
 > **Note**: On linux if you get Exception Handler Error, then you need to make sure you have correct permission
-	    chmod -R 775 app/storage
+	    
+	    chmod -R 775 /path_to/fusionmate/app/storage
 
 **Docs**
 ----
