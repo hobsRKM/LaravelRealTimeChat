@@ -10,6 +10,13 @@ A real time chat based application built using laravel framework 4.2 with task m
 
 ----------
 
+Demo: http://fusionmate.com
+
+**Demo Credentials to login as Admin**
+
+*Username*: demo@demo.com
+
+*Password*: Explore@123
 
 Rquirements
 -------------
