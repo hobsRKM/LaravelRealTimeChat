@@ -3,7 +3,7 @@ Fusionmate -  Laravel RealTime Chat Application with Task Management!
 
 Demo: http://fusionmate.com
 
-**Demo Credentials to login as Admin**
+**Demo Credentials to login as Admin** 
 
 *Username*: demo@demo.com
 
