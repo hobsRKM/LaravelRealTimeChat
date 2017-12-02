@@ -35,11 +35,18 @@ Rquirements
       Create database 'fusionmate' in Mysql
 
 **Step 3**
-Go to root of project and open database config and fill in mysql credentials and database name
-   
+Go to root of project and open database config, server.js and edit MYSQL credentials
 
     $ cd  /path_to/fusionmate/app/config
-    $ vi database.php
+    $ vi database.php    //edit mysql credentials
+    $ cd /path_to/fusionmate/nodejs
+    $ vi server.js
+    	var connection = mysql.createConnection({
+  	host     : 'localhost',
+  	user     : 'MYSQL _USERNAME',
+  	password : 'MYSQL_PASSWORD',
+  	database : 'fusionmate'
+	});
 **Step 4**
 Generate Database tables with test data
    
