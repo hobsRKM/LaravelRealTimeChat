@@ -886,7 +886,7 @@
                 "symfony/css-selector": "2.7.*",
                 "symfony/debug": "2.7.*",
                 "symfony/dom-crawler": "2.7.*",
-                "symfony/finder": "2.7.*",
+                "symfony/http-foundation": "2.8.52"
                 "symfony/http-foundation": "2.7.*",
                 "symfony/http-kernel": "2.7.*",
                 "symfony/process": "2.7.*",
